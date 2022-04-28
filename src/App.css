@@ -30,11 +30,20 @@
 }
 
 .square div {
-  /* width: 4rem;
-  height: 4rem; */
+  width: 4rem;
+  height: 4rem;
   background: rgb(134, 236, 236);
   border: solid 2px rgb(239, 228, 228);
   
+}
+
+
+.acertado{
+  background:red;
+}
+
+ .fallado{
+background:white;
 }
 
 input{
