@@ -1,0 +1,45 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color:rgb(148, 208, 130);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height:auto;
+  
+  margin-bottom: 4rem;
+}
+
+.title{
+  color: white;
+  margin-top:4rem;
+  margin-bottom:2rem;
+}
+.square {
+  display:grid;
+  grid-template-columns: 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem;
+  grid-template-rows: 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem ;
+  
+}
+
+.square div {
+  /* width: 4rem;
+  height: 4rem; */
+  background: rgb(134, 236, 236);
+  border: solid 2px rgb(239, 228, 228);
+  
+}
+
+input{
+  width:12rem;
+  height:2rem;
+  background:white ;
+  margin-bottom:4rem;
+}
